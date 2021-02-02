@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Parameter</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <form action="#" th:action="@{/parameter/update/{key}(key=${parameter.getMykey()})}" th:object="${parameter}" method="post" class="form-horizontal">
+                <div class="card-header">
+                    Update <strong>Parameter</strong>
+                </div>
+
+                <div class="card-body card-block">
+
+
+                    <input type="hidden" th:field="*{mykey}" th:value="*{mykey}" name="mykey" >
+
+
+                    <!--<div class="row form-group">-->
+                        <!--<div class="col col-md-3">-->
+                            <!--<label class=" form-control-label">Key</label>-->
+                        <!--</div>-->
+                        <!--<div class="col-12 col-md-9">-->
+                            <!--<input  type="text" th:field="*{mykey}" th:value="*{mykey}" name="myKey" placeholder="Enter parameter key..." class="form-control" disabled>-->
+                            <!--<span th:if="${#fields.hasErrors('mykey')}" th:class="'error'" class="help-block">Please enter parameter key </span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label class=" form-control-label">Value</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <input type="text" th:field="*{value}" name="value" placeholder="Enter parameter value..." class="form-control" required>
+                            <span th:if="${#fields.hasErrors('value')}" th:class="'error'" class="help-block">Please enter parameter value</span>
+                        </div>
+                    </div>
+
+                    <input type="hidden" th:field="*{version}" th:value="*{version}" name="version" >
+
+                </div>
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Update Parameter
+                    </button>
+                    <button type="reset" class="btn btn-danger btn-sm">
+                        <i class="fa fa-ban"></i> Reset
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>

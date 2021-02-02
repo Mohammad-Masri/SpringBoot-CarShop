@@ -1,0 +1,19 @@
+[
+  {
+    "id":1,
+    "appuser_id":1,
+    "car":{"id":5,"name":"Volkswagen","number_of_seats":8,"ispurchase":true,"price":973,"created_at":"9/20/2020","version":2},
+    "purchase_price":409,
+    "customer_id ":30,
+    "created_at ":"8/12/2020",
+    "month":8
+  }, {
+    "id":2,
+    "appuser_id":1,
+    "car":{"id":6,"name":"Holden","number_of_seats":2,"ispurchase":true,"price":654,"created_at":"6/1/2019","version":2},
+    "purchase_price":1383,
+    "customer_id ":19,
+    "created_at ":"1/13/2020",
+    "month":1
+  }
+]

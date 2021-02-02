@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Car</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">Car Description</div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center title-2" th:text="${car.getName()}"></h3>
+                    </div>
+                    <hr>
+
+                    <div class="form-group">
+                        <label class="control-label mb-1">Price :</label>
+                        <label class="title-3 m-b-30" th:text="${car.getPrice()}" ></label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label mb-1">Number of Seats :</label>
+                        <label class="title-3 m-b-30" th:text="${car.getNumber_of_seats()}" ></label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label mb-1">Is Purchase :</label>
+                        <label class="title-3 m-b-30" th:text="${car.getIspurchase()}" ></label>
+                    </div>
+
+
+
+                </div>
+                <div class="card-footer">
+                    <a th:href="@{/car/sale/{id}(id=${car.getId()})}" >
+                        <button type="button" class="btn btn-success">Sale</button>
+                    </a>
+                    <a th:href="@{/car/edit/{id}(id=${car.getId()})}" >
+                        <button type="button" class="btn btn-primary">Update</button>
+                    </a>
+
+                    <a th:href="@{/car/delete/{id}(id=${car.getId()})}" >
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

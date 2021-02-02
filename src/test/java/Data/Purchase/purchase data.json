@@ -1,0 +1,201 @@
+[
+  {
+    "id":1,
+    "car":{"id":5,"name":"Volkswagen","number_of_seats":8,"ispurchase":true,"price":973,"created_at":"9/20/2020","version":2},
+    "purchase_price":409,
+    "created_at ":"8/12/2020",
+    "month":8,
+    "appuser": null,
+    "customer": null
+  },
+  {
+  "id":2,
+  "car":{"id":6,"name":"Holden","number_of_seats":2,"ispurchase":true,"price":654,"created_at":"6/1/2019","version":2},
+  "purchase_price":1383,
+  "created_at ":"1/13/2020",
+  "month":1,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":3,
+    "car":{"id":7,"name":"Dodge","number_of_seats":5,"ispurchase":true,"price":258,"created_at":"7/13/2020","version":5},
+    "purchase_price":987,
+    "created_at ":"5/15/2020",
+    "month":5,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":4,
+    "car":{"id":8,"name":"Ford","number_of_seats":3,"ispurchase":true,"price":209,"created_at":"9/6/2018","version":0},
+    "purchase_price":1495,
+    "created_at ":"4/28/2020",
+    "month":4,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":5,
+    "car":{"id":9,"name":"GMC","number_of_seats":4,"ispurchase":true,"price":668,"created_at":"7/14/2019","version":4},
+    "purchase_price":1357,
+    "created_at ":"11/20/2020",
+    "month":11,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":6,
+    "car":{"id":12,"name":"Chrysler","number_of_seats":2,"ispurchase":true,"price":584,"created_at":"8/3/2019","version":0},
+    "purchase_price":324,
+    "created_at ":"2/2/2020",
+    "month":2,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":7,
+    "car":{"id":19,"name":"Chevrolet","number_of_seats":2,"ispurchase":true,"price":324,"created_at":"12/7/2020","version":2},
+    "purchase_price":669,
+    "created_at ":"12/15/2020",
+    "month":12,
+    "appuser": null,
+    "customer": null
+
+  },
+  {
+    "id":8,
+    "car":{"id":22,"name":"Dodge","number_of_seats":8,"ispurchase":true,"price":971,"created_at":"6/14/2020","version":4},
+    "purchase_price":876,
+    "created_at ":"4/25/2020",
+    "month":4,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":9,
+    "car":{"id":25,"name":"Mitsubishi","number_of_seats":6,"ispurchase":true,"price":558,"created_at":"3/17/2019","version":4},
+    "purchase_price":1154,
+    "created_at ":"5/18/2020",
+    "month":5,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":10,
+    "car":{"id":27,"name":"MINI","number_of_seats":5,"ispurchase":true,"price":557,"created_at":"10/8/2019","version":2},
+    "purchase_price":356,
+    "created_at ":"7/12/2020",
+    "month":7,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":11,
+    "car":{"id":29,"name":"Suzuki","number_of_seats":4,"ispurchase":true,"price":398,"created_at":"4/22/2020","version":2},
+    "purchase_price":584,
+    "created_at ":"2/19/2020",
+    "month":2,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":12,
+    "car":{"id":30,"name":"Maserati","number_of_seats":5,"ispurchase":true,"price":443,"created_at":"4/28/2018","version":0},
+    "purchase_price":316,
+    "created_at ":"4/21/2020",
+    "month":4,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":13,
+    "car":{"id":35,"name":"Ford","number_of_seats":8,"ispurchase":true,"price":569,"created_at":"11/20/2019","version":5},
+    "purchase_price":1283,
+    "created_at ":"10/22/2020",
+    "month":10,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":14,
+    "car":{"id":36,"name":"Ford","number_of_seats":7,"ispurchase":true,"price":351,"created_at":"6/23/2020","version":2},
+    "purchase_price":666,
+    "created_at ":"7/30/2020",
+    "month":7,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":15,
+    "car":{"id":38,"name":"Volkswagen","number_of_seats":5,"ispurchase":true,"price":833,"created_at":"1/24/2018","version":3},
+    "purchase_price":361,
+    "created_at ":"12/4/2020",
+    "month":12,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":16,
+    "car":{"id":39,"name":"Nissan","number_of_seats":3,"ispurchase":true,"price":964,"created_at":"9/7/2018","version":1},
+    "purchase_price":857,
+    "created_at ":"12/24/2020",
+    "month":12,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":17,
+    "car":{"id":41,"name":"Chevrolet","number_of_seats":3,"ispurchase":true,"price":896,"created_at":"3/10/2020","version":2},
+    "purchase_price":665,
+    "created_at ":"5/31/2020",
+    "month":5,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":18,
+    "car":{"id":44,"name":"Pontiac","number_of_seats":7,"ispurchase":true,"price":279,"created_at":"8/17/2019","version":4},
+    "purchase_price":1153,
+    "created_at ":"11/12/2020",
+    "month":11,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":19,
+    "car":{"id":45,"name":"Toyota","number_of_seats":2,"ispurchase":true,"price":349,"created_at":"5/18/2020","version":2},
+    "purchase_price":1220,
+    "created_at ":"12/28/2020",
+    "month":12,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":20,
+    "car":{"id":49,"name":"MINI","number_of_seats":6,"ispurchase":true,"price":606,"created_at":"3/9/2019","version":1},
+    "purchase_price":602,
+    "created_at ":"1/6/2020",
+    "month":1,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":21,
+    "car":{"id":52,"name":"Chevrolet","number_of_seats":6,"ispurchase":true,"price":561,"created_at":"11/17/2019","version":2},
+    "purchase_price":773,
+    "created_at ":"8/14/2020",
+    "month":8,
+    "appuser": null,
+    "customer": null
+  },
+  {
+    "id":22,
+    "car":{"id":53,"name":"Pontiac","number_of_seats":4,"ispurchase":true,"price":554,"created_at":"4/8/2019","version":4},
+    "purchase_price":1261,
+    "created_at ":"6/1/2020",
+    "month":6,
+    "appuser": null,
+    "customer": null
+  }
+]
